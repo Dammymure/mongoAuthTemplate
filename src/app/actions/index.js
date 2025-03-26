@@ -22,6 +22,6 @@ export async function doCredentialLogin(formData){
 
         return response
     } catch (error) {
-       throw new Error(error) 
+        throw new Error(error) 
     }
 } 

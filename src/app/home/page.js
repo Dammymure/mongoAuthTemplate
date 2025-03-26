@@ -12,7 +12,7 @@ const Home = async  () => {
             <h1>Welcome {session.user?.name}</h1>
 
             <Image
-            src={session.user?.image}
+            src={session.user?.image || "/default-user-image.png"}
             alt={session.user?.name} 
             height={72}
             width={72}
